@@ -1,0 +1,21 @@
+def favourite_city(name) :
+    
+    if name == "Chennai":
+        return 0
+    else :
+        if name == "Bengaluru":
+         return 0
+        else :
+            if name == "Hyderabad":
+                return 1
+            else :
+                return 0
+                     
+
+city = input("Guess my favourite city among these : Chennai, Bengaluru, Hyderabad (Enter the name) ")
+output =favourite_city(city)
+if output !=0 :
+    print("Yes !! My favourite city is Hyderabad")
+else :
+    if output == 0 :
+        print("Bad Guess!! Please try again") 
