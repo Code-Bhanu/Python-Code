@@ -1,0 +1,7 @@
+age = 36
+print (age);
+print(type(age));
+
+mail = "abc.com"
+print(mail);
+print(type(mail));
