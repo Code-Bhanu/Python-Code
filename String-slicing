@@ -1,0 +1,12 @@
+first_name = 'malala'
+last_name = 'yousafzai'
+note = 'award: Nobel Peace Prize'
+
+print(first_name.capitalize())
+print(last_name.capitalize())
+print(note.index('w'))
+print (note.index('rd:'))
+print(note.find('Nobel'))
+print (note.rindex('rd:'))
+print(note.rfind('Nobel'))
+print(note[3:8])
