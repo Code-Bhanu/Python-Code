@@ -1,0 +1,12 @@
+# Bhanu prakash reddy dtd 02/11/2021
+# import the math module, which contains features for working with mathematics
+import math
+
+# the math module contains lots of pre-built functions
+print("The square root of 25 is ", math.sqrt(25))
+
+# in addition to functions, some modules contain useful constants
+print("The value of pi is", math.pi)
+
+# try some of the math functions for yourself here:
+print("The power of 4 to 2 ", math.pow(2,4))
