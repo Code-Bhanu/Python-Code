@@ -1,0 +1,21 @@
+# Bhanu prakash reddy dtd 02/11/2021
+# Example file for working with conditional statements
+#
+
+
+def main():
+    x, y = 1000, 100
+
+    # conditional flow uses if, elif, else
+    if (x>y):
+        print("x is greater than y")
+    elif (x<y):
+        print("x is lesser than y")
+    else :  
+        print("x is equal to y")
+    # conditional statements let you use "a if C else b"
+    st = "x is lesser than y" if(x<y) else "x is not lesser than y"
+    print(st)
+
+if __name__ == "__main__":
+    main()
