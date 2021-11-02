@@ -1,0 +1,28 @@
+# Bhanu prakash reddy dtd 02/11/2021
+# Example file for working with classes
+#
+class myclass():
+    def method1(self):
+        print("myclass - method1")
+    def method2(self, someString):
+        print("myclass - method2 " + someString)
+
+class anotherclass(myclass):
+    def method1(self):
+        print("Another class - method1")
+        myclass.method1(self)
+    def method3(self):
+        print("Another class- method 3")
+    
+
+
+def main():
+    obj = myclass()
+    obj.method1()
+    obj.method2("hello")
+    obj1 = anotherclass()
+    obj1.method1()
+    obj1.method3()
+
+if __name__ == "__main__":
+    main()
