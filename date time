@@ -1,0 +1,36 @@
+# Bhanu prakash reddy dtd 03/11/2021
+# Example file for working with date information
+#
+from datetime import date
+from datetime import time
+from datetime import datetime
+
+def main():
+  ## DATE OBJECTS
+  # Get today's date from the simple today() method from the date class
+  dt = date.today()
+  print (dt)  
+
+  # print out the date's individual components
+  print(dt.day, dt.month, dt.year)
+  
+
+  # retrieve today's weekday (0=Monday, 6=Sunday)
+  arr = ["sun","mon","tue","wed","thu","fri","sat"]
+  print(arr[dt.day])
+  
+  ## DATETIME OBJECTS
+  # Get today's date from the datetime class
+  date1 = datetime.now()
+  print(date1)
+  
+  # Get the current time
+  ti = datetime.time(date1)
+  print(ti)
+  
+ 
+
+  
+if __name__ == "__main__":
+  main();
+  
